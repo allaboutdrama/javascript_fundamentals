@@ -13,3 +13,11 @@ var ActualAge1 = CurrentYear - BirthYear;
 var ActualAge2 = CurrentYear - BirthYear2;
 
 console.log("They are either " + ActualAge1 + " or " + ActualAge2);
+
+
+var Radius = 1;
+var Circumference = Math.PI * (2 * Radius);
+var Area = Math.PI * Math.pow(Radius, 2);
+
+console.log("The circumference is " + Circumference);
+console.log("The area is " + Area);
