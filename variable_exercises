@@ -9,6 +9,7 @@ console.log("You will be a " + JobTitle + " in " + Location + ", and married to 
 var CurrentYear = 2014;
 var BirthYear = 1990;
 var BirthYear2 = 1984;
-var ActualAge = CurrentYear - BirthYear;
+var ActualAge1 = CurrentYear - BirthYear;
+var ActualAge2 = CurrentYear - BirthYear2;
 
-console.log(ActualAge);
+console.log("They are either " + ActualAge1 + " or " + ActualAge2);
