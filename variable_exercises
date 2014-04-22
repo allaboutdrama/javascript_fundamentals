@@ -21,3 +21,12 @@ var Area = Math.PI * Math.pow(Radius, 2);
 
 console.log("The circumference is " + Circumference);
 console.log("The area is " + Area);
+
+var CelsiusTemperature = 24;
+var FahrenheitTemperature = (CelsiusTemperature * 9 /5 + 32);
+
+console.log(CelsiusTemperature + "F is " + FahrenheitTemperature + "C.");
+
+var FahrenheitTemperature = 75;
+var CelsiusTemperature = ((FahrenheitTemperature -  32 ) *  5/9);
+console.log(FahrenheitTemperature + "F is " + CelsiusTemperature  + "C.")
