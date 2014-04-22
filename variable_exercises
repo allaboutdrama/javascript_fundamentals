@@ -1,0 +1,6 @@
+var NumberOfChildren = 10;
+var NameOfPartner = "Jessica Rabbit";
+var Location = Madagascar;
+var JobTitle = "Alchemist";
+
+console.log("You will be a " + JobTitle + " in " + Location + ", and married to " + NameOfPartner + " with " + NumberOfChildren + " children.");
