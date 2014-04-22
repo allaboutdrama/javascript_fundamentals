@@ -4,3 +4,11 @@ var Location = Madagascar;
 var JobTitle = "Alchemist";
 
 console.log("You will be a " + JobTitle + " in " + Location + ", and married to " + NameOfPartner + " with " + NumberOfChildren + " children.");
+
+
+var CurrentYear = 2014;
+var BirthYear = 1990;
+var BirthYear2 = 1984;
+var ActualAge = CurrentYear - BirthYear;
+
+console.log(ActualAge);
