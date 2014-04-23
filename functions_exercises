@@ -1,0 +1,10 @@
+// FORTUNE TELLER:
+
+function tellFortune(numChildren, partnerName, location, jobTitle) {
+  alert("You will be a " + jobTitle + " in " + location + ", and married to " + partnerName + " with " + numChildren + " kids.");
+}
+
+tellFortune(6, "mama thornton", "toronto", "ceo");
+tellFortune(3, "Nikka Costa", "Katmandu", "coder");
+tellFortune(2, "George Burgess", "Lesotho", "Rugby Player");
+
