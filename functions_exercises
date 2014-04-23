@@ -8,3 +8,16 @@ tellFortune(6, "mama thornton", "toronto", "ceo");
 tellFortune(3, "Nikka Costa", "Katmandu", "coder");
 tellFortune(2, "George Burgess", "Lesotho", "Rugby Player");
 
+//The Age Calculator
+
+var today = new Date();
+var currentYear = today.getFullYear();
+// console.log(birthYear);
+
+function calculateAge(birthYear, currentYear) {
+  console.log("Your current age is " + (currentYear - birthYear))
+ }
+
+calculateAge(1965, currentYear)
+calculateAge(1990, currentYear)
+calculateAge(793, currentYear)
