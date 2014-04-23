@@ -31,6 +31,26 @@
 // Call that function three times, passing in different values each time.
 // Bonus: Accept floating point values for amount per day, and round the result to a round number.
 
+
+// var today = new Date();
+// var currentYear = today.getFullYear();
+
+// function calculateAge(birthYear, currentYear) {
+//   console.log("Your current age is " + (currentYear - birthYear))
+//  }
+
+var MAX_AGE = 80;
+  
+function calculateSupply(age, dailyAmount) {
+  var futureAmountConsumed = (MAX_AGE - age) * 365 * dailyAmount;
+  console.log("You will need " + futureAmountConsumed + " grams of crack to last you until the ripe old age of " + MAX_AGE);
+}
+
+calculateSupply(25, 20)
+
+
+
+
 // EXERCISE: The Geometrizer
 
 // Create 2 functions that calculate properties of a circle, using the definitions here.
