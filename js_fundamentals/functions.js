@@ -129,12 +129,12 @@ document.write("<h2>" + "The Temperature Converter" + "</h2>")
 
 function fahrenheitToCelsius(fahrenheitTemp) {
   var gradosCelsius = (((fahrenheitTemp - 32) * 5)/9.0).toFixed(2);
-  document.write(fahrenheitTemp + "°F is " + gradosCelsius + "°C.");
+  document.write(fahrenheitTemp + " degrees Celsius is " + gradosCelsius + " degrees Fahrenheit.");
 }
 
 function celsiusToFahrenheit(celsiusTemp){
   var gradosFahrenheit = ((celsiusTemp * 9)/5.0) + 32;
-   document.write(celsiusTemp + "°C is " + gradosFahrenheit + "°F");
+   document.write(celsiusTemp + " degrees Celsius is " + gradosFahrenheit + " degrees Fahrenheit.");
 }
 
 celsiusToFahrenheit(24);
