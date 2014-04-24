@@ -9,6 +9,15 @@
 // outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 // Call that function 3 times with 3 different values for the arguments.
 
+function tellFortune(numChildren, partnerName, location, jobTitle) {
+  alert("You will be a " + jobTitle + " in " + location + ", and married to " + partnerName + " with " + numChildren + " kids.");
+}
+
+tellFortune(6, "mama thornton", "toronto", "ceo");
+tellFortune(3, "Nikka Costa", "Katmandu", "coder");
+tellFortune(2, "George Burgess", "Lesotho", "Rugby Player");
+
+
 // EXERCISE: The Age Calculator
 
 // Forgot how old you are? Calculate it!
@@ -19,6 +28,18 @@
 // outputs the result to the screen like so: "You are either NN or NN"
 // Call the function three times with different sets of values.
 // Bonus: Figure out how to get the current year in JavaScript instead of passing it in.
+
+var today = new Date();
+var currentYear = today.getFullYear();
+// console.log(birthYear);
+
+function calculateAge(birthYear, currentYear) {
+  console.log("Your current age is " + (currentYear - birthYear))
+ }
+
+calculateAge(1965, currentYear)
+calculateAge(1990, currentYear)
+calculateAge(793, currentYear)
 
 // EXERCISE: The Lifetime Supply Calculator
 
@@ -31,14 +52,6 @@
 // Call that function three times, passing in different values each time.
 // Bonus: Accept floating point values for amount per day, and round the result to a round number.
 
-
-// var today = new Date();
-// var currentYear = today.getFullYear();
-
-// function calculateAge(birthYear, currentYear) {
-//   console.log("Your current age is " + (currentYear - birthYear))
-//  }
-
 var MAX_AGE = 80;
   
 function calculateSupply(age, dailyAmount) {
@@ -47,6 +60,7 @@ function calculateSupply(age, dailyAmount) {
 }
 
 calculateSupply(25, 20)
+calculateSupply(79, 15)
 
 
 
