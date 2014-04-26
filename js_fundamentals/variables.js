@@ -7,6 +7,14 @@
 // Store the following into variables: number of children, partner's name, geographic location, job title.
 // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 
+var NumberOfChildren = 10;
+var NameOfPartner = "Jessica Rabbit";
+var Location = Madagascar;
+var JobTitle = "Alchemist";
+
+console.log("You will be a " + JobTitle + " in " + Location + ", and married to " + NameOfPartner + " with " + NumberOfChildren + " children.");
+
+
 // EXERCISE: The Age Calculator
 
 // Forgot how old someone is? Calculate it!
@@ -15,6 +23,16 @@
 // Store their birth year in a variable.
 // Calculate their 2 possible ages based on the stored values.
 // Output them to the screen like so: "They are either NN or NN", substituting the values.
+
+var CurrentYear = 2014;
+var BirthYear = 1990;
+var BirthYear2 = 1984;
+var ActualAge1 = CurrentYear - BirthYear;
+var ActualAge2 = CurrentYear - BirthYear2;
+
+console.log("They are either " + ActualAge1 + " or " + ActualAge2);
+
+
 
 // EXERCISE: The Lifetime Supply Calculator
 
@@ -34,6 +52,15 @@
 // Calculate the circumference based on the radius, and output "The circumference is NN".
 // Calculate the area based on the radius, and output "The area is NN".
 
+
+var Radius = 1;
+var Circumference = Math.PI * (2 * Radius);
+var Area = Math.PI * Math.pow(Radius, 2);
+
+console.log("The circumference is " + Circumference);
+console.log("The area is " + Area);
+
+
 // EXERCISE: The Temperature Converter
 
 // It's hot out! Let's make a converter based on the steps here.
@@ -43,4 +70,13 @@
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
 
+
+var CelsiusTemperature = 24;
+var FahrenheitTemperature = (CelsiusTemperature * 9 /5 + 32);
+
+console.log(CelsiusTemperature + "F is " + FahrenheitTemperature + "C.");
+
+var FahrenheitTemperature = 75;
+var CelsiusTemperature = ((FahrenheitTemperature -  32 ) *  5/9);
+console.log(FahrenheitTemperature + "F is " + CelsiusTemperature  + "C.")
 
